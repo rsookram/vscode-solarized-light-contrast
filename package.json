@@ -1,0 +1,21 @@
+{
+    "name": "solarized-light-contrast",
+    "displayName": "solarized-light-contrast",
+    "description": "Solarized light theme with high contrast",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized Light Contrast",
+                "uiTheme": "vs",
+                "path": "./themes/Solarized Light Contrast-color-theme.json"
+            }
+        ]
+    }
+}
