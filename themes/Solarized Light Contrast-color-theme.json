@@ -4,6 +4,8 @@
 	"colors": {
 		"editor.background": "#fdf6e3",
 		"editor.foreground": "#586e75",
+		"editor.lineHighlightBackground": "#eee8d5",
+		"editor.selectionBackground": "#eee8d5",
 		"list.activeSelectionIconForeground": "#fff"
 	},
 	"tokenColors": [
@@ -137,8 +139,7 @@
 				"constant"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#859900"
+				"foreground": "#6c71c4"
 			}
 		},
 		{
