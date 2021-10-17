@@ -1,15 +1,20 @@
 # vscode-solarized-light-contrast
-Solarized light theme for Visual Studio Code with high contrast
 
-## This is the README for your extension "solarized-light-contrast"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+Solarized light theme for Visual Studio Code with high contrast.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+## Develop
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- Open this project in VS Code.
+- Press `F5` to open a new window with this extension loaded.
+- Open `File > Preferences > Color Themes` and pick this theme.
+- Open a file that has a language associated. The language's configured grammar
+  will tokenize the text and assign 'scopes' to the tokens. To examine these
+  scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from
+  the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
+- Changes to the theme file are automatically applied to the Extension
+  Development Host window.
 
-**Enjoy!**
+## Install
+
+To start using this extension with Visual Studio Code, copy it into the
+`<user_home>/.vscode/extensions` folder and restart Code.
